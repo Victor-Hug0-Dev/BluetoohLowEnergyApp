@@ -3,6 +3,6 @@ package com.example.bluetoohlowenergyapp.domain.chat
 typealias BluetoothDeviceDomain = BluetoothDevice
 
 data class BluetoothDevice(
-    val name: String,
+    val name: String?,
     val address: String,
 )
